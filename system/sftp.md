@@ -1,0 +1,1 @@
+SFTP định nghĩa cho giao thức SSH File Transfer hay là Secure File Transfer Protocol. Nó sử dụng giao thức đóng gói riêng với SSH để cung cấp một kết nối bảo mật.
