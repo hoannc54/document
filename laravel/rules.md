@@ -1,0 +1,1 @@
+1. Không code trực tiếp hàm `env()` trong code, mà phải dùng thông qua config
