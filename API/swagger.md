@@ -5,6 +5,7 @@ On Mac: `brew install swagger-codegen`
 - Tài liệu viết doc để gen tự động: https://viblo.asia/p/painless-api-documentation-in-php-with-swagger-3Q75w2E7lWb
 - Editor : http://editor.swagger.io/
 
+https://medium.com/@mahbubkabir/discovering-swagger-in-laravel-rest-apis-cb0271c8f2
 
 Cấu trúc : 
 
