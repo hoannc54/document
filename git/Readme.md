@@ -1,5 +1,6 @@
 
 
+Because there is no storage / memory overhead with making many branches, it's easier to logically divide up your work than have big beefy branches.
 
 ### Remove files
 `git rm --cached [file_name]`
