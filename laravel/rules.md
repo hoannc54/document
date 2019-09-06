@@ -1,14 +1,3 @@
-1. Không code trực tiếp hàm `env()` trong code, mà phải dùng thông qua config
-
-Config:
-Thêm biến config theo nguyên tắc:
-- Gom nhóm config theo nguyên tắc tree đi từ ngoài vào trong
-- Tên biến env theo nguyên tắc là ký tự in hoa từ tên file đến tên biến trong config
-Ví dụ: 
-'name' => env('APP_NAME', 'CungHocVui'), trong file app.php
-
-=> Đặt tên APP_NAME
-
 ## Naming conventions 
 
 (Cách đặt tên file, tên class, tên biến trong Laravel)
@@ -68,7 +57,17 @@ Tên file theo dạng sau :
 - Add, change, ... column: 
     `yyyy_mm_dd_<timestamp>_<action_name>_<column_name>_<table name>_table`
 
+### Config 
+Không code trực tiếp hàm `env()` trong code, mà phải dùng thông qua config
 
+Config:
+Thêm biến config theo nguyên tắc:
+- Gom nhóm config theo nguyên tắc tree đi từ ngoài vào trong
+- Tên biến env theo nguyên tắc là ký tự in hoa từ tên file đến tên biến trong config
+Ví dụ: 
+'name' => env('APP_NAME', 'CungHocVui'), trong file app.php
+
+=> Đặt tên APP_NAME
 
 
 # Tham khảo 
